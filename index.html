@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+
+
+        }
+
+        body {
+            background: url("im.jpg") no-repeat center center/cover;
+            height: 105vh;
+            /* background-image: url("im.jpg");
+            background-repeat: no-repeat;
+            background-size: cover; */
+            /* background-blend-mode: darken; */
+
+        }
+
+        ::before {
+            opacity: 0.5;
+        }
+
+        .container {
+            /* border: 2px solid white; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            margin-top: 75px;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: column;
+            border: 5px solid rgba(70, 73, 66, 0.548);
+            border-radius: 5px;
+            width: 300px;
+            margin: auto;
+            color: white;
+            flex-wrap: wrap;
+            margin-top: 100px;
+
+        }
+
+        #one {
+            display: block;
+            color: white;
+            border: 2px solid rgb(79, 79, 138);
+            border-radius: 5px;
+            background: url("18157366.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 210px;
+            width: auto;
+        }
+
+        .cards a {
+            text-decoration: none;
+            color: black;
+            
+        }
+        .cards p {
+            text-align:justify;
+        }
+        button {
+            margin: 3px;
+            padding: 9px 24px;
+            border-radius: 5px;
+            background: #454130;
+            color: white;
+            margin-left: 4px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(16 14 14);
+            color: white;
+            text-align: center;
+        }
+    </style>
+    <title>Umang Garden</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Umang Garden</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/menu.html">Menu</a>
+                    </li>
+                  
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Order Food</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Welcome to Umang Garden</h1>
+        <p>Best Veg restaurant available in Shirpur</p>
+    </div>
+    <div class="cards">
+        <div id="one">
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis impedit nam tempore nobis? Alias
+                molestias .</p> -->
+        </div>
+        <div>
+            <p>*********** ONLY VEGETARIAN *********</p>
+            <p></p>
+            <button><a href="/contact.html">Order Now</a> </button>
+            <button><a href="/menu.html">Check Menu</a> </button>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Email : umanggardenrestaurant@gmail.com , At Kharde Bk , Shirpur-Kharde Road , Shirpur</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
